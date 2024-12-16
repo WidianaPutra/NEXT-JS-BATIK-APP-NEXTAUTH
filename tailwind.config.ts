@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      boxShadow: {
+        "custom-light": "0 0px 20px rgba(0, 0, 0, 0.1)", // Custom shadow ringan
+        "custom-dark": "0 4px 15px rgba(0, 0, 0, 0.3)", // Custom shadow lebih gelap
+        neon: "0 0 10px #00ffcc, 0 0 20px #00ffcc", // Shadow dengan efek neon
+      },
     },
   },
   plugins: [],
